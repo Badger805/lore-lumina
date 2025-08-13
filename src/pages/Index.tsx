@@ -8,7 +8,7 @@ import { ExpertProfile } from "@/components/ExpertProfile";
 import { Sun, Moon, Eye, Brain, Heart, Clock } from "lucide-react";
 import heroImage from "@/assets/horse-eye-hero.jpg";
 import stableImage from "@/assets/stable-interior.jpg";
-import anatomyImage from "@/assets/horse-anatomy-diagram.jpg";
+// Using uploaded diagram directly
 
 const Index = () => {
   const sectionsRef = useRef<HTMLElement[]>([]);
@@ -152,8 +152,8 @@ const Index = () => {
                 
                 <div className="eye-glow">
                   <img
-                    src={anatomyImage}
-                    alt="Horse anatomy showing light pathways"
+                    src="/lovable-uploads/4ab87d19-16d0-4195-b1d2-d0f0b77038e5.png"
+                    alt="Horse anatomy diagram showing how sunlight affects visual pathways and circadian rhythms through primary optic tract and retino-hypothalamic tract"
                     className="w-full rounded-lg shadow-lg border border-border/50"
                   />
                 </div>
