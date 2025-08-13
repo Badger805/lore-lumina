@@ -1,7 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { GraduationCap, Award, Lightbulb } from "lucide-react";
-import expertImage from "@/assets/expert-profile.jpg";
+import expertImage from "/lovable-uploads/ec663565-4ec2-4413-92ac-0e867d312938.png";
 
 export const ExpertProfile = () => {
   return (
