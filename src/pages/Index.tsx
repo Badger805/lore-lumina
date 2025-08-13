@@ -151,11 +151,16 @@ const Index = () => {
                 </div>
                 
                 <div className="eye-glow">
-                  <img
-                    src="/lovable-uploads/4ab87d19-16d0-4195-b1d2-d0f0b77038e5.png"
-                    alt="Horse anatomy diagram showing how sunlight affects visual pathways and circadian rhythms through primary optic tract and retino-hypothalamic tract"
-                    className="w-full rounded-lg shadow-lg border border-border/50"
-                  />
+                  <div className="space-y-3">
+                    <img
+                      src="/lovable-uploads/4ab87d19-16d0-4195-b1d2-d0f0b77038e5.png"
+                      alt="Horse anatomy diagram showing how sunlight affects visual pathways and circadian rhythms through primary optic tract and retino-hypothalamic tract"
+                      className="w-full rounded-lg shadow-lg border border-border/50"
+                    />
+                    <p className="text-sm text-muted-foreground italic text-center">
+                      Light is the primary regulator of circadian rhythms. When sunlight stimulates specialized photoreceptors at the back of the retina, signals travel to the brain via the primary optic tract and the retino-hypothalamic tract. The brain relays the time-of-day and time-of-year message to synchronize transcriptional regulation in peripheral clocks throughout the body.
+                    </p>
+                  </div>
                 </div>
               </div>
             </CardContent>
