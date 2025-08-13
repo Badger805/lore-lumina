@@ -292,7 +292,7 @@ const Index = () => {
         <div className="max-w-7xl mx-auto px-8">
           <div className="text-center space-y-4">
             <p className="text-muted-foreground">
-              Interactive article based on the award-winning article "Light Work," which appeared in the Winter 2024 issue of EQUUS Magazine
+              Based on the award-winning article "Light Work," which appeared in the Winter 2024 issue of EQUUS Magazine
             </p>
             <div className="flex items-center justify-center space-x-2">
               <span className="text-accent">✨</span>
