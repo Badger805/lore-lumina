@@ -72,7 +72,7 @@ export const ExpertProfile = () => {
                 physiology of the horse is key to helping to improve equine health 
                 and welfare now and into the future."
               </blockquote>
-              <cite className="text-xs text-accent mt-2 block">— Dr. Barbara Murphy</cite>
+              <cite className="text-xs text-accent mt-2 block">— Barbara Murphy, BScEq, PhD, GDipUTL</cite>
             </div>
           </div>
         </div>
