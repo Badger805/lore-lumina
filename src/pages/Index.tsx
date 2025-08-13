@@ -94,15 +94,22 @@ const Index = () => {
                 </h3>
               </div>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                If you keep your horses at home, you probably do a final barn check before bedtime. 
-                I know I do. Of course, when I enter the barn, the first thing I do is flip on the 
-                lights. In response, my horses blink away at me, looking a little dazed. I always 
-                feel a little uneasy about disturbing their rest this way.
+                If you keep your horses at home, you probably do a final barn check before bedtime. I know I do. Of course, when I enter the barn, the first thing I do is flip on the lights. In response, my horses blink away at me, looking a little dazed. I always feel a little uneasy about disturbing their rest this way. And I have often wondered how long it takes for them to return to a restful state once I've left for the night.
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed">
-                And I have often wondered how long it takes for them to return to a restful state 
-                once I've left for the night. You are right to give this serious thought, says 
-                Barbara Murphy, expert on equine circadian rhythms.
+                "You are right to give this serious thought," says Barbara Murphy, BScEq, PhD, GDipUTL, associate professor at the University College Dublin in Ireland. "Horses are much more sensitive to light disruptions than are humans. Abrupt exposure to light at night—like the one your horses experience when you flip on the lights—turns off melatonin production, and it is now believed that these seemingly innocuous disruptions in hormone levels play havoc to the circadian regulation in the horse."
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Most organisms on earth—from bacteria to insects to plants to people—have adapted to the light/dark cycles produced by the presence of the sun and our planet's rotation on its axis every 24 hours. The physiological, mental and behavioral responses to the 24-hour cycle of night and day are called the circadian rhythm. In addition, horses—like many other mammals and birds—are subject to circannual rhythms, meaning their bodies respond physiologically to seasonal changes in light caused by the planet's annual journey around the sun. Estrous cycles in mares, for example, occur when days are longer (spring, summer and fall) and cease during the winter.
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Circadian rhythms affect every cell in the horse's body. In fact, each cell has its own biological timekeeping system. As the authors of a 2016 paper in the journal Cell Research wrote, "circadian rhythms allow the cell to anticipate regular changes so that appropriate cellular activities happen at appropriate times of day; cells whose internal rhythms are out of sync with their environment do not grow as well as cells whose clocks are in tune."
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                These rhythms govern everything from body temperature to digestion to sleep patterns, often by stimulating the release of specific hormones. "We know that melatonin, a hormone produced by the brain during the hours of darkness and suppressed by daytime light, is an important regulator of the internal body clock," says Murphy. "It's even more relevant in equine athletes where environmental light cues influence the timing of most physiological functions—everything from when muscles will work best to when it's a good time to rest, digest and regenerate muscle."
+              </p>
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                Yet modern horse management routines and competition schedules often work against circadian rhythms. "Predominantly, the horse—especially the stabled competition horse—has been removed from exposure to their natural environmental cues," says Murphy. "The seasonally changing photoperiod, foraging and feeding activity, social herd interactions and the low-intensity exercise of a grassland dweller has been replaced in many cases with indoor housing, regimental feeding, and exposure to lighting that is often erratic and does not come close to mimicking the spectral composition of sunlight."
               </p>
             </CardContent>
           </Card>
