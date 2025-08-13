@@ -297,7 +297,7 @@ const Index = () => {
             <div className="flex items-center justify-center space-x-2">
               <span className="text-accent">✨</span>
               <span className="text-sm text-muted-foreground">
-                Understanding light helps improve equine health and welfare
+              
               </span>
               <span className="text-accent">✨</span>
             </div>
