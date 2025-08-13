@@ -55,7 +55,7 @@ const Index = () => {
           <div className="space-y-8 floating-animation">
             <div className="space-y-4">
               <Badge className="bg-accent/20 text-accent border-accent/30 animate-pulse-golden">
-                EQUUS Magazine Feature
+                EQUUS Magazine Interactive
               </Badge>
               <h1 className="text-7xl md:text-9xl font-bold text-gradient-golden tracking-tight">
                 LIGHT
@@ -70,7 +70,7 @@ const Index = () => {
                 illumination can affect your horse's health, behavior and performance.
               </p>
               <p className="text-lg text-muted-foreground">
-                By Karen Elizabeth Baril • Interactive Experience
+                By Karen Elizabeth Baril
               </p>
             </div>
           </div>
