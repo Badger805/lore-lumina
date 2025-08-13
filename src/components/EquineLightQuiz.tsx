@@ -135,7 +135,7 @@ export const EquineLightQuiz = () => {
       <CardHeader>
         <div className="flex items-center justify-between">
           <CardTitle className="text-gradient-golden text-lg">
-            Equine Light Therapy Quiz
+            Pop Quiz
           </CardTitle>
           <Badge variant="outline" className="border-primary text-primary">
             {currentQuestion + 1}/{quizQuestions.length}
