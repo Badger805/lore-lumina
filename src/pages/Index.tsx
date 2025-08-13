@@ -40,11 +40,6 @@ const Index = () => {
 
   return (
     <div className="min-h-screen">
-      {/* Fixed Sidebar Quiz */}
-      <div className="fixed right-4 top-4 w-80 z-40 max-h-[calc(100vh-2rem)] overflow-y-auto">
-        <EquineLightQuiz />
-      </div>
-
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center overflow-hidden">
         <div className="absolute inset-0">
@@ -87,7 +82,7 @@ const Index = () => {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-4xl mx-auto px-8 py-16 space-y-20 mr-96">
+      <div className="max-w-4xl mx-auto px-8 py-16 space-y-20">
         {/* Introduction Section */}
         <section ref={addToRefs} className="article-section space-y-8">
           <Card className="bg-card/80 backdrop-blur border-border/50 golden-glow">
@@ -166,112 +161,123 @@ const Index = () => {
             </CardContent>
           </Card>
         </section>
+      </div>
 
-        {/* Expert Profile */}
-        <section ref={addToRefs} className="article-section">
-          <ExpertProfile />
-        </section>
+      {/* Content with Sidebar Layout - Starting from Expert Profile */}
+      <div className="flex max-w-7xl mx-auto px-8 py-16 gap-8">
+        {/* Main Content Column */}
+        <div className="flex-1 space-y-20">
+          {/* Expert Profile */}
+          <section ref={addToRefs} className="article-section">
+            <ExpertProfile />
+          </section>
 
-        {/* Effects Section */}
-        <section ref={addToRefs} className="article-section space-y-8">
-          <Card className="bg-card/80 backdrop-blur border-border/50">
-            <CardContent className="p-8 space-y-8">
-              <div className="flex items-center space-x-4">
-                <Moon className="h-8 w-8 text-accent animate-pulse-golden" />
-                <h3 className="text-3xl font-bold text-gradient-golden">
-                  When Light Disrupts Natural Rhythms
-                </h3>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
-                <div className="order-2 md:order-1 eye-glow">
-                  <img
-                    src={stableImage}
-                    alt="Modern stable interior"
-                    className="w-full rounded-lg shadow-lg border border-border/50"
-                  />
+          {/* Effects Section */}
+          <section ref={addToRefs} className="article-section space-y-8">
+            <Card className="bg-card/80 backdrop-blur border-border/50">
+              <CardContent className="p-8 space-y-8">
+                <div className="flex items-center space-x-4">
+                  <Moon className="h-8 w-8 text-accent animate-pulse-golden" />
+                  <h3 className="text-3xl font-bold text-gradient-golden">
+                    When Light Disrupts Natural Rhythms
+                  </h3>
                 </div>
                 
-                <div className="order-1 md:order-2 space-y-6">
-                  <p className="text-lg text-muted-foreground leading-relaxed">
-                    Modern management routines and competition schedules often work against 
-                    equine circadian rhythms. Disrupting a horse's circadian rhythm can 
-                    contribute to undesirable behaviors, including stall weaving and other 
-                    stereotypies.
-                  </p>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                  <div className="order-2 md:order-1 eye-glow">
+                    <img
+                      src={stableImage}
+                      alt="Modern stable interior"
+                      className="w-full rounded-lg shadow-lg border border-border/50"
+                    />
+                  </div>
                   
-                  <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-6">
-                    <h5 className="font-semibold text-destructive mb-3">Warning Signs</h5>
-                    <ul className="space-y-2 text-sm text-muted-foreground">
-                      <li>• Stall weaving and repetitive behaviors</li>
-                      <li>• Disrupted sleep patterns</li>
-                      <li>• Mood disorders and anxiety</li>
-                      <li>• Compromised immune function</li>
-                      <li>• Poor coat condition</li>
+                  <div className="order-1 md:order-2 space-y-6">
+                    <p className="text-lg text-muted-foreground leading-relaxed">
+                      Modern management routines and competition schedules often work against 
+                      equine circadian rhythms. Disrupting a horse's circadian rhythm can 
+                      contribute to undesirable behaviors, including stall weaving and other 
+                      stereotypies.
+                    </p>
+                    
+                    <div className="bg-destructive/10 border border-destructive/30 rounded-lg p-6">
+                      <h5 className="font-semibold text-destructive mb-3">Warning Signs</h5>
+                      <ul className="space-y-2 text-sm text-muted-foreground">
+                        <li>• Stall weaving and repetitive behaviors</li>
+                        <li>• Disrupted sleep patterns</li>
+                        <li>• Mood disorders and anxiety</li>
+                        <li>• Compromised immune function</li>
+                        <li>• Poor coat condition</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </CardContent>
+            </Card>
+          </section>
+
+          {/* Management Tips */}
+          <section ref={addToRefs} className="article-section space-y-8">
+            <Card className="bg-gradient-to-br from-accent/10 to-primary/10 border-accent/30">
+              <CardContent className="p-8 space-y-8">
+                <div className="flex items-center space-x-4">
+                  <Heart className="h-8 w-8 text-accent animate-pulse-golden" />
+                  <h3 className="text-3xl font-bold text-gradient-golden">
+                    Circadian-Friendly Management Tips
+                  </h3>
+                </div>
+                
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                  <div className="space-y-4">
+                    <h5 className="font-semibold text-accent text-lg">Turnout & Natural Light</h5>
+                    <ul className="space-y-3 text-muted-foreground">
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>Turn out horses as much as possible—24/7 would be ideal</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>For stabled horses, use lighting that simulates sunlight during the day</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>Align feeding schedules with natural grazing patterns</span>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div className="space-y-4">
+                    <h5 className="font-semibold text-accent text-lg">Night Management</h5>
+                    <ul className="space-y-3 text-muted-foreground">
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>Install red lights in barns for night use</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>Use red-light headlamps for night checks instead of bright lights</span>
+                      </li>
+                      <li className="flex items-start space-x-3">
+                        <span className="text-accent mt-1">•</span>
+                        <span>Consider programmable barn lights for gradual transitions</span>
+                      </li>
                     </ul>
                   </div>
                 </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+              </CardContent>
+            </Card>
+          </section>
+        </div>
 
-        {/* Management Tips */}
-        <section ref={addToRefs} className="article-section space-y-8">
-          <Card className="bg-gradient-to-br from-accent/10 to-primary/10 border-accent/30">
-            <CardContent className="p-8 space-y-8">
-              <div className="flex items-center space-x-4">
-                <Heart className="h-8 w-8 text-accent animate-pulse-golden" />
-                <h3 className="text-3xl font-bold text-gradient-golden">
-                  Circadian-Friendly Management Tips
-                </h3>
-              </div>
-              
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-4">
-                  <h5 className="font-semibold text-accent text-lg">Turnout & Natural Light</h5>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>Turn out horses as much as possible—24/7 would be ideal</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>For stabled horses, use lighting that simulates sunlight during the day</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>Align feeding schedules with natural grazing patterns</span>
-                    </li>
-                  </ul>
-                </div>
-                
-                <div className="space-y-4">
-                  <h5 className="font-semibold text-accent text-lg">Night Management</h5>
-                  <ul className="space-y-3 text-muted-foreground">
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>Install red lights in barns for night use</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>Use red-light headlamps for night checks instead of bright lights</span>
-                    </li>
-                    <li className="flex items-start space-x-3">
-                      <span className="text-accent mt-1">•</span>
-                      <span>Consider programmable barn lights for gradual transitions</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-        </section>
+        {/* Sidebar Quiz */}
+        <div className="w-80 sticky top-4 self-start">
+          <EquineLightQuiz />
+        </div>
       </div>
 
       {/* Footer */}
       <footer className="bg-card/50 backdrop-blur border-t border-border/50 py-8">
-        <div className="max-w-4xl mx-auto px-8 mr-96">
+        <div className="max-w-7xl mx-auto px-8">
           <div className="text-center space-y-4">
             <p className="text-muted-foreground">
               Interactive article based on research by Dr. Barbara Murphy and content from EQUUS Magazine
