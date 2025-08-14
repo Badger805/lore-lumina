@@ -177,6 +177,23 @@ const Index = () => {
 
       {/* Continued Content */}
       <div className="max-w-4xl mx-auto px-8 py-16 space-y-20">
+        {/* Research Study Section */}
+        <section ref={addToRefs} className="article-section space-y-8">
+          <Card className="bg-card/80 backdrop-blur border-border/50">
+            <CardContent className="p-8 space-y-6">
+              <p className="text-lg text-muted-foreground leading-relaxed">
+                In a recent study, Murphy and her team investigated how artificial lighting may influence the circadian system. They analyzed the hair follicles of horses stabled under a standard illumination regime (lights turned on and off as needed by staff) in a barn at a Thoroughbred racing yard. Those findings were then compared to follicles taken from horses living in barns at the same yard equipped with special stable lights, controlled by timers, that mimicked the natural light transitions of dawn and dusk, emitting blue-enriched white light by day and a dim red light at night.
+              </p>
+              
+              <div className="bg-accent/10 border border-accent/30 rounded-lg p-6">
+                <p className="text-lg text-muted-foreground leading-relaxed italic">
+                  "The horses stabled under the optimized circadian lighting showed strong rhythmical 24-hour patterns," says Murphy, "evidence that the circadian system was working in tune with the environmental lighting. The horses in the standard-lit stables had gene expressions that flat-lined and showed no rhythm at all. While we were only examining hair follicles, the results mean that all other tissues were also out of synchrony."
+                </p>
+              </div>
+            </CardContent>
+          </Card>
+        </section>
+
         {/* Expert Profile */}
         <section ref={addToRefs} className="article-section">
           <ExpertProfile />
