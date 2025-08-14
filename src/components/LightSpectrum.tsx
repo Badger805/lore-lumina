@@ -146,6 +146,31 @@ export const LightSpectrum = () => {
             <li>• <strong>Artificial lighting</strong> should mimic natural daily changes</li>
           </ul>
         </div>
+
+        {/* Understanding Light's Biological Impact */}
+        <div className="space-y-4 text-muted-foreground">
+          <p className="leading-relaxed">
+            The sun is the primary source of visible light—the segment of the electromagnetic spectrum that the human eye can perceive. A rainbow after a storm is a visual representation of this spectrum, from short-wavelength light like violet, blue and green to long-wavelength light like oranges and reds.
+          </p>
+          
+          <p className="leading-relaxed">
+            How light affects an individual's biological clock depends on the wavelengths it contains, timing and duration. Blue light gets a lot of bad press. That's because it's the light you're exposed to when you peer into your computer or smart phone screen. When received after natural dusk, blue light can contribute to sleep disorders, depression and other maladies. This is because it turns off melatonin production which naturally causes sleepiness. On the other hand, exposure to blue light during the day can boost your mood and have other beneficial effects. This is when melatonin levels are supposed to be low so we and our horses can be alert and focused.
+          </p>
+          
+          <p className="leading-relaxed">
+            In 2012, scientists at Johns Hopkins University used mice to investigate how blue light hitting intrinsic photosensitive retinal ganglion cells (ipRGCs) affects the brain. They found that exposure to aberrant light—that is, light exposure that occurs at unusual or inappropriate times—can disrupt the body's biological clock, which in turn can lead to cognitive changes and mood disorders.
+          </p>
+          
+          <div className="bg-accent/10 border border-accent/30 rounded-lg p-4">
+            <p className="leading-relaxed italic">
+              "Imagine waking on a dark, dreary day," explains Murphy. "You have to really push yourself to do things. It affects your mood negatively to not have the blue light you need. Now, imagine you wake to the sun shining and lots of blue sky. You most certainly will feel a lifting of your spirits. It will be easy to find motivation under that kind of lighting."
+            </p>
+          </div>
+          
+          <p className="leading-relaxed">
+            Something similar is true for our horses. "Disrupting a horse's circadian rhythm can also contribute to undesirable behaviors, including stall weaving and other stereotypies", says Murphy, "while providing as much turnout as possible—or the right kind of artificial light at the right time of day—can make for a happier horse."
+          </p>
+        </div>
       </CardContent>
     </Card>
   );
