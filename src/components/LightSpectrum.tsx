@@ -71,7 +71,7 @@ export const LightSpectrum = () => {
         <div className="text-center space-y-2">
           <h3 className="text-2xl font-bold text-gradient-golden">Visible Light Spectrum</h3>
           <p className="text-muted-foreground">
-            Understanding how different wavelengths affect equine circadian rhythms
+            Understanding how different wavelengths affect equine circadian rhythms (Click on each color for details)
           </p>
         </div>
 
